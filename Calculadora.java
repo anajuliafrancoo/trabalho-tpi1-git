@@ -1,4 +1,5 @@
-    public class Calculadora {
+public class Calculadora {
+
 
     /**
      * Executa uma operação matemática básica.
@@ -6,11 +7,15 @@
 =======
      * @param operacao Tipo da operação: "subtracao", "multiplicacao"
 >>>>>>> oresgate
+=======
+     * @param operacao Tipo da operação: "divisao"
+>>>>>>> oamanhanuncamorre
      * @param a Primeiro número
      * @param b Segundo número
      * @return Resultado da operação
      */
-    public double calcular(String operacao, int a, int b) {
+    
+    public double calcular(String operacao, int a, int b){
         switch (operacao.toLowerCase()) {
             case "soma":
                 return a + b;
